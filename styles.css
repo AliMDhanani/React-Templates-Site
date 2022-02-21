@@ -42,15 +42,18 @@ h1 {
     width: 100%;
 }
 
+h2 {
+    font-size: 48px;
+}
+
 h1, h2 {
     font-weight: 900;
     color: #243e63;
 }
 
-h2 {
+.service__title {
     text-align: center;
-    font-size: 48px;
-    font-weight: 900;
+    margin: 18px 0 18px 0;
 }
 
 img {
@@ -259,6 +262,8 @@ input:focus {
     letter-spacing: 0.05em;
 }
 
+/* SERVICE */
+
 .container {
     padding: 100px 0;
 
@@ -278,7 +283,7 @@ input:focus {
     text-align: center;
 }
 
-.features__subtitle {
+.service__subtitle {
     padding: 16px 0 40px 0;
     font-size: 18px;
     text-align: center;
@@ -336,4 +341,28 @@ input:focus {
 
 .service__info--wrapper {
     margin: 8px 0 0 16px;
+}
+
+/* PROFESSIONAL */
+
+.professional__heading {
+    text-align: left;
+    margin-top: 16px;
+}
+
+.professional__btn {
+    padding: 12px 32px;
+    margin-top: 32px;
+    font-size: 14px;
+    background-color: #6415ff;
+    width: 100%;
+    max-width: 141.25px;
+    line-height: 1;
+    font-weight: 700;
+    border-radius: 9999px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    color: white;
 }

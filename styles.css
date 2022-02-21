@@ -10,6 +10,7 @@
 
 body {
     padding: 32px 32px;
+    overflow-x: hidden;
 }
 html {
     scroll-behavior: smooth;
@@ -33,9 +34,22 @@ li {
     list-style-type: none;
 }
 
+h1 {
+    font-size: 48px;
+    color: #000;
+    height: 100%;
+    max-height: 533.33px;
+    width: 100%;
+}
+
 h1, h2 {
     font-weight: 900;
     color: #243e63;
+}
+
+img {
+    width: 100%;
+    height: auto;
 }
 
 .text--purple {
@@ -89,8 +103,9 @@ ul {
     background: #6415ff;
     color: #f7fafc;
     border-radius: 24px;
-    padding: 0.75rem 2rem;
+    padding: 0.60rem 1.8rem;
     text-decoration: none !important;
+    transition: all 300ms ease;
 }
 
 .nav__link--primary:hover {
@@ -138,9 +153,102 @@ ul {
 
 /* HEADER */
 
+#header {
+    height: 100%;
+    max-height: 700px;
+}
+
+.header__container {
+    width: 100%;
+    max-width: 1280px;
+    display: flex;
+    flex-direction: row;
+    padding: 96px 0;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.header__description {
+    max-width: 533px;
+    display: flex;
+    flex-direction: column;
+}
+
+.header__description--title {
+    font-size: 48px;
+    color: black;
+}
+
 .header__description--subtitle {
-    font-size: 16px;
-    margin: 0 32px;
+    font-size: 18px;
     color: #243e63;
     font-weight: 500;
+    line-height: 1.5;
+    margin: 32px 0;
+}
+
+.header__input {
+    position: relative;
+    width: 100%;
+    max-width: 448px;
+    height: 68px;
+    margin-right: 47px;
+    margin-bottom: 82px;
+}
+
+.header__input--text {
+    background-color: #fff;
+    padding: 20px 192px 20px 32px;
+    width: 100%;
+    height: 100%;
+    border-radius: 9999px;
+    font-weight: 500;
+    font-size: 100%;
+    border: solid lightgray;
+}
+
+input:focus {
+    outline: none;
+}
+
+.header__input--btn {
+    position: absolute;
+    margin: 8px 8px 8px 0;
+    padding: 16px 0;
+    background-color: #6415ff;
+    width: 100%;
+    max-width: 160px;
+    line-height: 1;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    font-weight: 700;
+    border-radius: 9999px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    max-height: 52px;
+    color: white;
+    border: none;
+    transition: all 300ms ease;
+}
+
+.header__input--btn:hover {
+    background-color: #5d3eff;
+}
+
+.customers__img {
+    padding: 0 128px 0 0;
+    margin: 16px 0 0;
+    opacity: 50%;
+}
+
+.customers__title {
+    font-size: 12px;
+    color: #A0AEc0;
+    font-weight: 700;
+    height: 100%;
+    max-height: 18px;
+    letter-spacing: 0.05em;
 }

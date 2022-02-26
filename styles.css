@@ -345,6 +345,32 @@ input:focus {
 
 /* PROFESSIONAL */
 
+#professional {
+    width: 100%;
+    max-width: 1280px;
+    padding: 96px 0;
+    margin: 0 auto;
+}
+
+.professional__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.professional__row {
+    width: 100%;
+    max-width: 580px;
+    padding: 32px 0;
+}
+
+.professional__title {
+    text-align: left;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    font-size: 16px;
+}
+
 .professional__heading {
     text-align: left;
     margin-top: 16px;
@@ -365,4 +391,21 @@ input:focus {
     justify-content: center;
     border: none;
     color: white;
+}
+
+.professional__para {
+    font-size: 18px;
+    margin-top: 16px;
+    color: #7c8BA1;
+    line-height: 1.625;
+}
+
+.professional_img--wrapper {
+    max-width: 640px;
+    display: flex;
+    align-items: center;
+}
+
+.professional__img {
+    margin-left: 76px;
 }

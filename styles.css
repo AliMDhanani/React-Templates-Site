@@ -62,7 +62,7 @@ img {
 }
 
 .text--purple {
-    color: #5d3eff;
+    color: #6415ff;
 }
 
 .no__cursor {
@@ -86,12 +86,6 @@ img {
     align-items: center;
     margin: 0 auto;
 }
-
-ul {
-    display:flex;
-    align-items: center;
-}
-
 
 .nav__link {
     color: #243e63;
@@ -393,7 +387,7 @@ input:focus {
     color: white;
 }
 
-.professional__para {
+.professional__description {
     font-size: 18px;
     margin-top: 16px;
     color: #7c8BA1;
@@ -408,4 +402,105 @@ input:focus {
 
 .professional__img {
     margin-left: 76px;
+}
+
+/* STEPS */
+
+#steps {
+    width: 100%;
+    max-width: 1280px;
+    padding: 96px 0;
+    margin: 0 auto;
+    align-items: center;
+    height: 100%;
+    max-height: 732px;
+}
+
+.steps__container {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+.steps__heading {
+    text-align: left;
+    margin-top: 16px;
+}
+
+.steps__title {
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-weight: 700;
+    font-size: 16px;
+    color: #6415ff;
+}
+
+.steps__row {
+    width: 100%;
+    max-width: 576px;
+    padding: 32px 0;
+}
+
+.step__number--integer {
+    font-size: 36px;
+    color: #cbd5e0;
+    font-weight: 600;
+    line-height: 1;
+}
+
+.step__number--title {
+    font-weight: 600;
+    color: #243e63;
+    font-size: 20px;
+    line-height: 1;
+    font-weight: 600;
+}
+.step__number {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 32px;
+}
+
+.step__number--wrapper {
+    margin-top: 0;
+    margin-left: 24px;
+}
+
+.step__number--description {
+    font-size: 14px;
+    color: #718096;
+    width: 100%;
+    max-width: 320px;
+    margin-top: 12px;
+    line-height: 2;
+    font-weight: 500;
+}
+
+.steps__img--wrapper {
+    max-width: 640px;
+    display: flex;
+    align-items: center;
+}
+
+/* VALUES */
+
+.value {
+    display: flex;
+    flex-direction: row;
+}
+
+.value__container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 262.38px;
+    margin-top: 32px;
+    margin-right: 32px;
+}
+
+.value__heading {
+    width: 100%;
+    max-width: 152.14px;
+    display: flex;
+    flex-direction: row;
 }

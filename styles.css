@@ -404,6 +404,10 @@ input:focus {
     margin-left: 76px;
 }
 
+.professional__btn:hover {
+    background-color: #6415ff;
+}
+
 /* STEPS */
 
 #steps {
